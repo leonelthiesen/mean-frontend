@@ -8,7 +8,7 @@ angular.module('MEAN').config([
 				templateUrl: "dashboard/dashboard.html"
 			})
 			.state('billingCycles', {
-				url: "/billingCycles",
+				url: "/billingCycles?page",
 				templateUrl: "billingCycle/tabs.html"
 			});
 
